@@ -16,7 +16,7 @@ function App() {
       prevItems.map((item) => {
         if (item.id === id) {
           if (item.status !== "available") {
-            alert("Item not available");
+            alert("Item not availale");
             return item;
           }
 
